@@ -1,0 +1,21 @@
+{
+    "name": "cloudmanaged/vcard-faker-provider",
+    "description": "vCard Faker Provider for generating fakes vCard",
+    "version": "0.1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Israel Sotomayor",
+            "email": "israel@contactzilla.com"
+        }
+    ],
+    "keywords": ["faker", "vcard"],
+    "require": {
+        "fzaninotto/faker": "~1.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Faker\\Provider\\": "src/"
+        }
+    }
+}
