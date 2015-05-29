@@ -1,4 +1,4 @@
-# vCard Faker Provider
+# Faker Provider vCard
 
 This package will allow you to easily generate fakes vCards using [Faker PHP](https://github.com/fzaninotto/Faker)
 
@@ -13,13 +13,17 @@ composer require cloudmanaged/vcard-faker-provider
 ## Use
 
 ```php
- $faker = \Faker\Factory::create();
+$faker = \Faker\Factory::create();
 $faker->addProvider(new \Faker\Provider\en_US\Person($faker));
 $faker->addProvider(new \Faker\Provider\en_US\Address($faker));
 $faker->addProvider(new \Faker\Provider\en_US\PhoneNumber($faker));
 $faker->addProvider(new \Faker\Provider\en_US\Company($faker));
 $faker->addProvider(new \Faker\Provider\Internet($faker));
 $faker->addProvider(new Faker\Provider\VCard($faker));
+```
+
+```
+$faker->vcard
 ```
 
 > You will need Person, Address, PhoneNumber, Company and Internet provider to be able to generated vCards
