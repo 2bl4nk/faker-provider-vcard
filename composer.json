@@ -1,6 +1,6 @@
 {
-    "name": "cloudmanaged/vcard-faker-provider",
-    "description": "vCard Faker Provider for generating fakes vCard",
+    "name": "cloudmanaged/faker-provider-vcard",
+    "description": "Faker Provider vCard for generating fakes vCard",
     "version": "0.1.0",
     "license": "MIT",
     "authors": [
@@ -9,7 +9,7 @@
             "email": "israel@contactzilla.com"
         }
     ],
-    "keywords": ["faker", "vcard"],
+    "keywords": ["faker", "provider", "vcard"],
     "require": {
         "fzaninotto/faker": "~1.4.0"
     },
