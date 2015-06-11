@@ -1,8 +1,8 @@
 <?php namespace Faker\Provider;
 
-class VCard extends \Faker\Provider\Base
+class VCard extends Base
 {
-    public function vcard()
+    public function carddata()
     {
         $raw = 'BEGIN:VCARD' . "\n" .
             'N:' . $this->generator->lastName. ';' . $this->generator->firstName . ';;' . $this->generator->title . ';' ."\n" .
@@ -13,5 +13,10 @@ class VCard extends \Faker\Provider\Base
             'END:VCARD';
 
         return $this->generator->parse($raw);
+    }
+
+    public function uri()
+    {
+        return $this->generator->uuid . '.vcf';
     }
 }
