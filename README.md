@@ -23,7 +23,18 @@ $faker->addProvider(new Faker\Provider\VCard($faker));
 ```
 
 ```
-$faker->vcard
+$faker->carddata // BEGIN:VCARD
+                    VERSION:3.0
+                    PRODID:-//Apple Inc.//Mac OS X 10.9.5//EN
+                    N:;test;;;
+                    FN:test
+                    REV:2015-06-11T13:36:53Z
+                    UID:af50a0e3-0905-463d-914d-2285c63ab0f8
+                    END:VCARD
+```
+
+```
+$faker->uri      // af50a0e3-0905-463d-914d-2285c63ab0f8.vcf
 ```
 
 > You will need Person, Address, PhoneNumber, Company and Internet provider to be able to generated vCards
