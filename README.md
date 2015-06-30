@@ -1,4 +1,5 @@
-# Faker Provider vCard
+Faker Provider vCard
+---
 
 This package will allow you to easily generate fakes vCards using [Faker PHP](https://github.com/fzaninotto/Faker)
 
@@ -53,7 +54,3 @@ See also the list of [contributors](https://github.com/CloudManaged/vcard-faker-
 ## Reporting an issue or a feature request
 
 Issues and feature requests are tracked in the [GitHub issue tracker](https://github.com/CloudManaged/vcard-faker-provider/issues).
-
-## TODO
-
-Add more options to be able to add/remove information to the vCards 
